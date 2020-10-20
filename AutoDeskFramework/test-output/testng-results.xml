@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="64" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:12Z">
+  <suite started-at="2020-10-20T08:46:25Z" name="Default suite" finished-at="2020-10-20T08:46:25Z" duration-ms="84">
     <groups>
     </groups>
-    <test name="Test" duration-ms="64" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:12Z">
-      <class name="practice.QouteTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:practice.QouteTest@3d299e3]" name="configBS" is-config="true" duration-ms="154" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:12Z">
+    <test started-at="2020-10-20T08:46:25Z" name="Default test" finished-at="2020-10-20T08:46:25Z" duration-ms="84">
+      <class name="practice.InvoiceTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:practice.InvoiceTest@6bf08014]" started-at="2020-10-20T08:46:25Z" name="configBS" finished-at="2020-10-20T08:46:25Z" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="createQuote()[pri:0, instance:practice.QouteTest@3d299e3]" name="createQuote" duration-ms="19" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createQuote -->
-        <test-method status="PASS" signature="configBS1()[pri:0, instance:practice.QouteTest@3d299e3]" name="configBS1" is-config="true" duration-ms="465" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS1 -->
-      </class> <!-- practice.QouteTest -->
-      <class name="practice.InvoiceTest">
-        <test-method status="PASS" signature="createInvoiceTest()[pri:0, instance:practice.InvoiceTest@55a561cf]" name="createInvoiceTest" duration-ms="3" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:12Z">
+        <test-method signature="createInvoiceTest()[pri:0, instance:practice.InvoiceTest@6bf08014]" started-at="2020-10-20T08:46:25Z" name="createInvoiceTest" finished-at="2020-10-20T08:46:25Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createInvoiceTest -->
-        <test-method status="PASS" signature="deleteInvoice()[pri:0, instance:practice.InvoiceTest@55a561cf]" name="deleteInvoice" duration-ms="3" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:12Z">
+        <test-method signature="deleteInvoice()[pri:0, instance:practice.InvoiceTest@6bf08014]" started-at="2020-10-20T08:46:25Z" name="deleteInvoice" finished-at="2020-10-20T08:46:25Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteInvoice -->
-        <test-method status="PASS" signature="modifyInvoice()[pri:0, instance:practice.InvoiceTest@55a561cf]" name="modifyInvoice" duration-ms="2" started-at="2020-10-20T07:58:12Z" finished-at="2020-10-20T07:58:12Z">
+        <test-method signature="modifyInvoice()[pri:0, instance:practice.InvoiceTest@6bf08014]" started-at="2020-10-20T08:46:25Z" name="modifyInvoice" finished-at="2020-10-20T08:46:25Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modifyInvoice -->
+        <test-method is-config="true" signature="configBS1()[pri:0, instance:practice.InvoiceTest@6bf08014]" started-at="2020-10-20T08:46:25Z" name="configBS1" finished-at="2020-10-20T08:46:26Z" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS1 -->
       </class> <!-- practice.InvoiceTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
